@@ -1,0 +1,22 @@
+.toggle {
+  padding: 0.5rem;
+  border-radius: 0.33rem;
+  margin-right: 0.2rem;
+  background: none;
+  border: none;
+  transition: box-shadow 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toggle:active {
+  background-color: var(--active);
+}
+.toggle:focus {
+  outline: none;
+  cursor: pointer;
+  box-shadow: var(--focus);
+}
+.toggle:hover {
+  background: var(--hover);
+}
