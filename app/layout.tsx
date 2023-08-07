@@ -1,7 +1,6 @@
-"use client";
 import "./globals.css";
 import type { Metadata } from "next";
-import { ThemeProvider } from "next-themes";
+import { ThemeProvider } from "./theme-provider";
 import { Header } from "@/components/header";
 export const metadata: Metadata = {
   title: "Ciobanu Nicolae",
@@ -16,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <ThemeProvider>
+        <ThemeProvider defaultTheme="system" enableSystem>
           <Header />
           {children}
         </ThemeProvider>
