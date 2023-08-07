@@ -1,0 +1,41 @@
+.header {
+  margin-top: 3rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--foreground);
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+.link {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.33rem;
+  margin-right: 0.2rem;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.link:active {
+  background-color: var(--active);
+}
+.link:focus {
+  outline: none;
+  box-shadow: var(--focus);
+}
+.link:hover {
+  background: var(--hover);
+}
+.description {
+  font-weight: 350;
+}
