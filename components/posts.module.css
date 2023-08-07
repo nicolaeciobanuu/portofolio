@@ -1,0 +1,14 @@
+.container {
+  height: 20vh;
+  border-bottom: 1px solid #eaeaea;
+  margin-top: 1.5rem;
+}
+.name {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--foreground);
+}
+.description {
+    font-weight: 350;
+    padding-top: 0.5rem;
+}
