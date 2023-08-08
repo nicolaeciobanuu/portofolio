@@ -10,7 +10,7 @@ export function Header() {
         <Link href="/">
           <h1 className={styles.name}>ciobanunicolae</h1>
         </Link>
-        <p className={styles.description}>Developer based in Sibiu, Romania</p>
+        <p className={styles.description}>Developer based in Sibiu, Romania.</p>
       </div>
       <div className={styles.links}>
         <a
