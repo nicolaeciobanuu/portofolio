@@ -17,6 +17,5 @@
   box-shadow: var(--focus);
 }
 .toggle:hover {
-  cursor: pointer;
   background: var(--hover);
 }
