@@ -1,7 +1,8 @@
 .container {
-  height: 20vh;
+  margin-top: 1rem;
+  padding: 1rem 0.1rem;
   border-bottom: 1px solid #eaeaea;
-  margin-top: 1.5rem;
+
 }
 .name {
   font-weight: 600;
@@ -9,6 +10,6 @@
   color: var(--foreground);
 }
 .description {
-    font-weight: 350;
-    padding-top: 0.5rem;
+  font-weight: 300;
+  
 }
