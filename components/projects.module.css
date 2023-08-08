@@ -1,0 +1,15 @@
+.container {
+  margin-top: 1rem;
+  padding: 1rem 0.1rem;
+  border-bottom: 1px solid #eaeaea;
+
+}
+.name {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--foreground);
+}
+.cards{
+  padding: 1rem 0;
+  gap: 1rem ;
+}
