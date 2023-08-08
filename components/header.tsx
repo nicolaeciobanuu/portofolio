@@ -2,29 +2,33 @@ import Link from "next/link";
 import styles from "./header.module.css";
 import { GitHubLogoIcon, EnvelopeClosedIcon } from "@radix-ui/react-icons";
 import { Toggle } from "./toggle";
+
 export function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/">
-          <h2 className={styles.name}>ciobanunicolae</h2>
+          <h1 className={styles.name}>ciobanunicolae</h1>
         </Link>
         <p className={styles.description}>Developer based in Sibiu, Romania</p>
       </div>
       <div className={styles.links}>
-        <Link
-          href="mailto:ciobanu.nicolae.j@gmail.com "
+        <a
+          href="mailto:ciobanu.nicolae.j@gmail.com"
           className={styles.link}
+          aria-label="Email"
         >
           <EnvelopeClosedIcon />
-        </Link>
-        <Link
+        </a>
+        <a
           href="https://github.com/ciobanunicolae"
           target="_blank"
+          rel="noopener noreferrer"
           className={styles.link}
+          aria-label="GitHub"
         >
           <GitHubLogoIcon />
-        </Link>
+        </a>
         <Toggle />
       </div>
     </header>
