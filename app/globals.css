@@ -14,7 +14,7 @@
   --background: hsl(210, 20%, 10%);
   --foreground: hsl(224, 71%, 85%);
   --border: hsl(224, 60%, 60%);
-  --hover: hsl(224, 71%, 70%);
+  --hover: hsl(240, 10%, 20%);
   --active: hsl(210, 20%, 5%);
   --focus: 0 0 2px hsl(224, 60%, 70%);
 }
