@@ -1,6 +1,6 @@
 .header {
   margin-top: 3rem;
-  padding: 1rem 0;
+  padding: 1rem 0.1rem;
   border-bottom: 1px solid #eaeaea;
   display: flex;
   justify-content: space-between;
@@ -37,5 +37,5 @@
   background: var(--hover);
 }
 .description {
-  font-weight: 350;
+  font-weight: 300;
 }
