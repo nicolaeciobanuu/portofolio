@@ -18,13 +18,18 @@
 }
 .links {
   display: flex;
+  width: 2/3;
   align-items: center;
 }
 .link {
-  padding: 0.25rem 0.5rem;
   border-radius: 0.33rem;
-  margin-right: 0.2rem;
+  margin-right: 0.1rem;
   transition: box-shadow 0.3s ease-in-out;
+  height: 32px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .link:active {
   background-color: var(--active);
@@ -38,4 +43,8 @@
 }
 .description {
   font-weight: 300;
+}
+.logo{
+  width: 15.2px;
+
 }

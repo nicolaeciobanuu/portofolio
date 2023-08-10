@@ -18,7 +18,7 @@ export function Header() {
           className={styles.link}
           aria-label="Email"
         >
-          <EnvelopeClosedIcon />
+          <EnvelopeClosedIcon className={styles.logo} />
         </a>
         <a
           href="https://github.com/ciobanunicolae"

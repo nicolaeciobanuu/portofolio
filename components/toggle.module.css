@@ -1,13 +1,13 @@
 .toggle {
-  padding: 0.5rem;
   border-radius: 0.33rem;
-  margin-right: 0.2rem;
   background: none;
   border: none;
   transition: box-shadow 0.3s ease-in-out;
+  height: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
+  aspect-ratio: 1/1;
 }
 .toggle:active {
   background-color: var(--active);
