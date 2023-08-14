@@ -11,6 +11,7 @@ export function Card({ title, description, link }: CardProps) {
     <a
       href={link}
       className={styles.link}
+      title="Open in new tab"
       target="_blank"
       rel="noopener noreferrer"
       aria-label={title}
