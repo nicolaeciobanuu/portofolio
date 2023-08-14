@@ -8,12 +8,15 @@ export function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/">
-          <h1 className={styles.name}>ciobanunicolae</h1>
+          <h1 className={styles.name} title="Home">
+            ciobanunicolae
+          </h1>
         </Link>
         <p className={styles.description}>Developer based in Sibiu, Romania.</p>
       </div>
       <div className={styles.links}>
         <a
+          title="Email"
           href="mailto:ciobanu.nicolae.j@gmail.com"
           className={styles.link}
           aria-label="Email"
@@ -21,6 +24,7 @@ export function Header() {
           <EnvelopeClosedIcon className={styles.logo} />
         </a>
         <a
+          title="GitHub"
           href="https://github.com/ciobanunicolae"
           target="_blank"
           rel="noopener noreferrer"

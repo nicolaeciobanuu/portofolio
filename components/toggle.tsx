@@ -18,6 +18,7 @@ export function Toggle() {
   return (
     <button
       type="button"
+      title="Toggle Dark Mode"
       className={styles.toggle}
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
