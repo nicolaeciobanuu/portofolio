@@ -6,9 +6,9 @@ export function Projects() {
       <h1 className={styles.name}>Projects</h1>
       <div className={styles.cards}>
         <Card
-          title="react-timer"
-          description="Pomodoro inspired timer built with React."
-          link="https://ciobanunicolae.github.io/react-timer/"
+          title="timer"
+          description="Pomodoro inspired timer."
+          link="https://timer.ciobanunicolae.com"
         />
         <Card
           title="shortest-path-vis"
