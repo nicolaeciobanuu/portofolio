@@ -6,7 +6,7 @@ export function Projects() {
       <h1 className={styles.name}>Projects</h1>
       <div className={styles.cards}>
         <Card
-          title="timer"
+          title="pomodoro"
           description="Pomodoro inspired accesible timer."
           link="https://pomodoro.ciobanunicolae.com"
         />
