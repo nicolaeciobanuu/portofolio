@@ -7,8 +7,8 @@ export function Projects() {
       <div className={styles.cards}>
         <Card
           title="timer"
-          description="Pomodoro inspired timer."
-          link="https://timer.ciobanunicolae.com"
+          description="Pomodoro inspired accesible timer."
+          link="https://pomodoro.ciobanunicolae.com"
         />
         <Card
           title="shortest-path-vis"
