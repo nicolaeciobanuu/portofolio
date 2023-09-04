@@ -6,6 +6,11 @@ export function Projects() {
       <h1 className={styles.name}>Projects</h1>
       <div className={styles.cards}>
         <Card
+          title="huez"
+          description="Automatic palette generator from base color."
+          link="https://huez.ciobanunicolae.com"
+        />
+        <Card
           title="pomodoro"
           description="Pomodoro inspired accesible timer."
           link="https://pomodoro.ciobanunicolae.com"
@@ -13,7 +18,7 @@ export function Projects() {
         <Card
           title="shortest-path-vis"
           description="Shortest path between two points."
-          link="https://ciobanunicolae.github.io/shortest-path-vis/"
+          link="https://github.com/ciobanunicolae/shortest-path-vis"
         />
         <Card
           title="calculator"
