@@ -12,7 +12,7 @@ export function Projects() {
         />
         <Card
           title="pomodoro"
-          description="Pomodoro inspired accesible timer."
+          description="Pomodoro inspired accessible timer."
           link="https://pomodoro.ciobanunicolae.com"
         />
         <Card
