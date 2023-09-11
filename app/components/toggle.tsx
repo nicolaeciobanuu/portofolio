@@ -1,7 +1,7 @@
 "use client";
 import { useTheme } from "next-themes";
 import { SunIcon, MoonIcon } from "@radix-ui/react-icons";
-import styles from "./toggle.module.css";
+import styles from "@/styles/toggle.module.scss";
 import * as React from "react";
 
 export function Toggle() {

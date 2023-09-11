@@ -1,8 +1,7 @@
-import "./globals.css";
+import "./styles/_globals.scss";
 import type { Metadata } from "next";
-import { ThemeProvider } from "./theme-provider";
+import { Providers } from "./providers";
 import { Header } from "@/components/header";
-import { url } from "inspector";
 export const metadata: Metadata = {
   title: "Ciobanu Nicolae",
   description: "Portofolio of Ciobanu Nicolae",
@@ -42,10 +41,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <ThemeProvider defaultTheme="system" enableSystem>
+        <Providers defaultTheme="system" enableSystem>
           <Header />
           {children}
-        </ThemeProvider>
+        </Providers>
       </body>
     </html>
   );

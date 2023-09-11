@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./header.module.css";
+import styles from "@/styles/header.module.scss";
 import { GitHubLogoIcon, EnvelopeClosedIcon } from "@radix-ui/react-icons";
 import { Toggle } from "./toggle";
 

@@ -1,4 +1,4 @@
-import styles from "./posts.module.css";
+import styles from "@/styles/posts.module.scss";
 
 export function Posts() {
   return (

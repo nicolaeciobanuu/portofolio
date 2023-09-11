@@ -1,4 +1,4 @@
-import styles from "./projects.module.css";
+import styles from "@/styles/projects.module.scss";
 import { Card } from "./card";
 export function Projects() {
   return (
