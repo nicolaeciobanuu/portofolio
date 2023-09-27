@@ -5,16 +5,8 @@ import styles from "./toggle.module.scss";
 import * as React from "react";
 
 export function Toggle() {
-  const [mounted, setMounted] = React.useState(false);
-  const { theme, setTheme } = useTheme();
-
-  React.useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) {
-    return null; //TODO: add loading spinner
-  }
+  
+  const { theme, setTheme } = useTheme(); 
   return (
     <button
       type="button"
