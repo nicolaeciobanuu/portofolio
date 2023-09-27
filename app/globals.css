@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800;12..96,900&display=swap");
+
+:root {
+  /**/
+  --gray-100: hsl(0deg, 0%, 95%);
+  --gray-200: hsl(0deg, 0%, 85%);
+  --gray-300: hsl(0deg, 0%, 75%);
+  --gray-400: hsl(0deg, 0%, 65%);
+  --gray-500: hsl(0deg, 0%, 55%);
+  --gray-600: hsl(0deg, 0%, 45%);
+  --gray-700: hsl(0deg, 0%, 35%);
+  --gray-800: hsl(0deg, 0%, 25%);
+  --gray-900: hsl(0deg, 0%, 15%);
+  /**/
+  --background: var(--gray-100);
+  --foreground: var(--gray-900);
+  --border: var(--gray-200);
+  --hover: var(--gray-200);
+  --focus: var(--gray-300);
+  --active: var(--gray-200);
+
+  --heading-1: var(--gray-800);
+  --heading-2: var(--gray-700);
+  --paragraph: var(--gray-600);
+
+  --link-background: var(--gray-900);
+  --link-foreground: var(--gray-100);
+  --link-hover: var(--gray-800);
+  --link-focus: var(--gray-900);
+  --link-active: var(--gray-800);
+
+  --radius: 4px;
+}
+[data-theme="dark"] {
+  --background: var(--gray-900);
+  --foreground: var(--gray-100);
+  --border: var(--gray-800);
+  --hover: var(--gray-800);
+  --focus: var(--gray-700);
+  --active: var(--gray-800);
+
+  --heading-1: var(--gray-200);
+  --heading-2: var(--gray-300);
+  --paragraph: var(--gray-400);
+
+  --link-background: var(--gray-100);
+  --link-foreground: var(--gray-900);
+  --link-hover: var(--gray-200);
+  --link-focus: var(--gray-100);
+  --link-active: var(--gray-200);
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Bricolage Grotesque", system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  width: max(375px, 55vw);
+  margin: 0 auto;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
