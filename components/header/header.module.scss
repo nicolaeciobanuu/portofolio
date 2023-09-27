@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  padding-top: 5rem;
+  justify-content: space-between;
+  .left {
+    a {
+      font-size: 1.5rem;
+      font-weight: 900;
+      &:hover {
+        color: var(--heading-1);
+      }
+    }
+    p {
+      color: var(--paragraph);
+    }
+  }
+  .right {
+    display: flex;
+    height: 32px;
+    gap: 4px;
+    a {
+      border-radius: var(--radius);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 32px;
+      &:hover {
+        background: var(--hover);
+        border: var(--border);
+      }
+      &:focus {
+        outline: 1px solid var(--focus);
+      }
+      &:active {
+        background: var(--active);
+      }
+    }
+  }
+}

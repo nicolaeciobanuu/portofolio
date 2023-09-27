@@ -1,0 +1,21 @@
+.toggle {
+  width: 32px;
+  aspect-ratio: 1/1;
+  background: inherit;
+  border: none;
+  border-radius: var(--radius);
+  svg {
+    width: 100%;
+  }
+  &:hover {
+    cursor: pointer;
+    background: var(--hover);
+    border: var(--border);
+  }
+  &:focus {
+    outline: 1px solid var(--focus);
+  }
+  &:active {
+    background: var(--active);
+  }
+}

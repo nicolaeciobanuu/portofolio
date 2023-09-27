@@ -1,0 +1,35 @@
+.card {
+  border: 1px solid var(--border);
+  padding: 1rem;
+  width: 300px;
+  border-radius: var(--radius);
+  & > * {
+    margin: 0.5rem 0;
+  }
+  h3 {
+    color: var(--heading-2);
+  }
+  p {
+    color: var(--paragraph);
+  }
+  a {
+    border-radius: var(--radius);
+    background: var(--link-background);
+    color: var(--link-foreground);
+    padding: 0.5rem;
+
+    svg {
+      display: inline;
+      margin-left: 5px;
+    }
+    &:hover {
+      background: var(--link-hover);
+    }
+    &:focus {
+      outline: 1px solid var(--link-focus);
+    }
+    &:active {
+      background: var(--link-active);
+    }
+  }
+}
